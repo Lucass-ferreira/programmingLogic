@@ -4,7 +4,8 @@ int main(){
 
     float largura, comprimento, metroQuadradoValor, area, preco;
 
-    printf("\n");
+    printf("\n"); // apenas para estilização, na hora de mostra no terminal.
+
     printf("Digite a largura do terreno: ");
     scanf("%f", &largura);
     printf("Digite o comprimento do terreno: ");
@@ -17,7 +18,8 @@ int main(){
 
     printf("Area do terreno: %.2f\n", area);
     printf("Preco do terreno: R$%.2f\n", preco);
-    printf("\n");
+
+    printf("\n"); // apenas para estilização, na hora de mostra no terminal.
 
     return 0;
 }
