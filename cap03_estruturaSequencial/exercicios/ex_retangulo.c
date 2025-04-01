@@ -10,7 +10,9 @@ int main(){
     printf("Digite a base do triangulo: ");
     scanf("%f", &base);
     printf("Digite a altura do triangulo: ");
-    scanf("%f", &altura);
+    scanf("%f", &altura); 
+
+    printf("\n"); // apenas para estilização, na hora de mostra no terminal.
 
     area = base * altura;
     perimetro = (2 * base) + (2 * altura);
@@ -18,7 +20,7 @@ int main(){
 
     printf("Area = %.2f\n", area);
     printf("Perimetro = %.2f\n", perimetro);
-    printf("Diagonal = %f\n", diagonal);
+    printf("Diagonal = %.4f\n", diagonal);
 
     printf("\n"); // apenas para estilização, na hora de mostra no terminal.
 
