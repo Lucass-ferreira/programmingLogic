@@ -14,9 +14,6 @@ int main(){
     printf("Coeficiente c: ");
     scanf("%lf", &coeficiente_c);
 
-    //delta não poder ser zero, esta equação não possui raizes reais
-    //coeficiente a não pode ser 0
-
     delta = (pow(coeficiente_b, 2)) - (4 * coeficiente_a * coeficiente_c);
 
     if(coeficiente_a == 0 || delta < 0){
@@ -25,8 +22,7 @@ int main(){
         x1 = (-coeficiente_b + sqrt(delta)) / (2 * coeficiente_a);
         x2 = (-coeficiente_b - sqrt(delta)) / (2 * coeficiente_a);
     }
-
-    //printf("%.4f", delta);
+    
     printf("X1 = %.4f \n", x1);
     printf("X2 = %.4f \n", x2);
 
