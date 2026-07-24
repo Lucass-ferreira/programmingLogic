@@ -11,7 +11,6 @@ int main() {
 
     int matriz[linhas][colunas];
 
-    // Preenchendo a matriz
     printf("\nDigite os valores da matriz:\n");
     for (int i = 0; i < linhas; i++) {
         for (int j = 0; j < colunas; j++) {
@@ -20,7 +19,6 @@ int main() {
         }
     }
 
-    // Exibindo a matriz
     printf("\nMatriz:\n");
     for (int i = 0; i < linhas; i++) {
         for (int j = 0; j < colunas; j++) {
